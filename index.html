@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Responsive Images!!</title>
+        <meta name="viewport" content="width=device-width,initial-scales=1" />
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+    </head>
+    
+    
+        <body>
+            
+         <div class="size">Width: </div>  
+            <div class="wrapper"></div>
+          <h1>RESPONSIVE IMAGES!!</h1>
+            
+        <ul>
+            <li>
+            
+            <h2>Grabbing photo by url</h2>
+            <figure>
+                <picure>
+                    <source srcset="https://picsum.photos/1500" media="(min-width:1200px)" />
+                    <source srcset="https://picsum.photos/1500" media="(min-width:900px)" />
+                    <source srcset="https://picsum.photos/1500" media="(min-width:500px)" />
+                    
+                    <!---Mobile first--->
+                    <img src="https;//picsum.photos/g/400" alt="picture of something " />
+                    
+                </picure>
+                <figcaption> A really cool photo!</figcaption>
+            </figure>
+            </li>
+        </ul>
+        </body>
+    
+</html>
